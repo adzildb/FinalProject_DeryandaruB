@@ -17,6 +17,10 @@
 3. Menjalankan onos
 
    $sudo systemctl start onos.service
+   
+4. Clustering untuk controller dengan model flat controller
+
+   $sudo /opt/onos/bin/onos-form-cluster [IP address #C1] [IP address #C2]
 
 4. Setelah itu, mininet dapat dijalankan dengan source code sesuai topologi yang dibutuhkan dan perlu disesuaikan IP address controller pada source code tersebut.
 
